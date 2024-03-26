@@ -405,9 +405,8 @@ html, body{
     padding: 10px;
     border-radius: 60%;
     position: absolute; 
-    left: 5px; /* posiciona a 90px para a esquerda */ 
+    left: 65px; /* posiciona a 90px para a esquerda */ 
     top: 45px; /* posiciona a 70px para baixo */
-    
 }
 
 
