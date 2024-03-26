@@ -28,7 +28,7 @@ body {
 h1 {
     backface-visibility: visible 0,5;
     color: #fff;
-    font-size: 130px;
+    font-size: 100px;
     margin-top: 30px;
     font-weight: bold;
     padding: 20px;
@@ -45,7 +45,7 @@ h1:hover {
 
 div h1 samp {
     color: rgb(249, 0, 195);
-    font-size: 130px;
+    font-size: 100px;
     margin-top: 5px;
     font-weight: bold;
     font-family: "Amatic SC", sans-serif;
@@ -54,7 +54,7 @@ div h1 samp {
 
 div samp {
     color: rgb(249, 0, 195);
-    font-size: 100px;
+    font-size: 50px;
     margin-top: 25px;
     font-weight: bold;
     font-family: "Amatic SC", sans-serif;
@@ -65,7 +65,7 @@ div samp {
 
 .logo { 
     cursor: pointer;
-    height: 300px;
+    height: 150px;
     padding: 25px;
     border-radius: 60%;
     position: absolute; 
@@ -93,14 +93,14 @@ nav {
 }
 
 .custom {
-    width: 400px;
+    width: 200px;
     height: 50px;
     color: #fff;
     border-radius: 5px;
     padding: 15px 30px;
-    font-size: 90px;
+    font-size: 50px;
     font-family: "Amatic SC", sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     background: transparent;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -219,7 +219,7 @@ nav {
     text-decoration: none;
     color: #fff;
     background-color: rgb(249, 0, 195);
-    padding: 50px;
+    padding: 30px;
     position: fixed;
     right: 35px;
     bottom: 35px;
@@ -237,7 +237,7 @@ nav {
 
 h2 {
     color: #ffffff;
-    font-size: 90px;
+    font-size: 50px;
     margin-top: 25px;
     font-weight: bold;
     padding: 40px;
@@ -255,12 +255,12 @@ h3 {
     font-family: "Amatic SC", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 30px;
 }
 
 h4 {
-    width:2550px;
-    height: 1150px;
+    width: 1000px;px;
+    height: 460px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -268,7 +268,7 @@ h4 {
     font-family: "Gidugu", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 75px;
+    font-size: 30px;
     background: rgba(0, 0, 0, 0.5);
 }
 
@@ -312,20 +312,20 @@ section {
 footer {
 	background-color: rgb(0, 0,0,.8);
 	color: #fff;
-	padding: 20px;
+	padding: 10px;
 	text-align: center;
 	margin-top: 300px;
-    font-size: 50px;
+    font-size: 20px;
 }
 
 footer p {
     font-family: "Amatic SC", sans-serif;
-    font-weight: 500;
-    font-size: 60px;
+    font-weight: 100;
+    font-size: 20px;
 }
 
 footer ul img {
-    width: 55px;
+    width: 20px;
     padding: 5px;
 }
 
@@ -333,7 +333,7 @@ footer a {
     color: rgb(249, 0, 195);
     font-family: "Amatic SC", sans-serif;
     font-weight: 500;
-    font-size: 80px;
+    font-size: 20px;
 }
 
 @media(max-width: 800px){
