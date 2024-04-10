@@ -1,3 +1,4 @@
+/*01 Customizando body*/
 
 html, body {
     width: 100%;
@@ -7,8 +8,6 @@ html, body {
     padding: 0;
 
 }
-
-/*Customizando body*/
 
 body {
     margin: 0;
@@ -23,58 +22,55 @@ body {
     background-attachment: fixed, scroll;
 }
 
-/*customizando titulo da pagina*/
+/*02 customizando titulo da pagina*/
 
 h1 {
     backface-visibility: visible 0,5;
     color: #fff;
-    font-size: 72px;
-    margin-top: 30px;
+    font-size: 40px;
+    margin-top: 10px;
     font-weight: bold;
     padding: 20px;
     font-family: "Amatic SC", sans-serif;
     text-align: center;
     transition: all 0.5s;
     cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background: rgba(0, 0, 0, 0.8);
+
 }
 
 h1:hover {
     -webkit-transform: scale(1.5);
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 
-div h1 samp {
+h1 samp {
     color: rgb(249, 0, 195);
-    font-size: 100px;
+    font-size: 40px;
     margin-top: 5px;
     font-weight: bold;
     font-family: "Amatic SC", sans-serif;
     font-style: normal;
 }
 
-div samp {
-    color: rgb(249, 0, 195);
-    font-size: 50px;
-    margin-top: 25px;
-    font-weight: bold;
-    font-family: "Amatic SC", sans-serif;
-    font-style: normal;
-}
-
-/*logo*/
+/*03 estilizando a logo*/
 
 .logo { 
     cursor: pointer;
-    height: 150px;
-    padding: 25px;
+    height: 110px;
+    padding: 0px;
     border-radius: 60%;
     position: absolute; 
-    left: 100px; /* posiciona a 90px para a esquerda */ 
-    top: 50px; /* posiciona a 70px para baixo */
-    
+    left: 50px; /* posiciona a 90px para a esquerda */ 
+    top: 55px; /* posiciona a 70px para baixo */
 }
 
-/*Cotomizando butao*/
+/*04 Cotomizando butao*/
 
 li {
     margin: 20px;
@@ -113,8 +109,8 @@ nav {
 }
 
 .custom {
-    background: rgb(247,150,192);
-    background: radial-gradient(circle, rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%);
+    background: rgb(249, 0, 195);
+    background: radial-gradient(circle, rgb(249, 0, 195) 0%, rgba(118,174,241,1) 100%);
     line-height: 42px;
     padding: 0;
     border: none;
@@ -215,37 +211,121 @@ nav {
     font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 24
 }
 
-#topo{
-    text-decoration: none;
-    color: #fff;
-    background-color: rgb(249, 0, 195);
-    padding: 30px;
-    position: fixed;
-    right: 35px;
-    bottom: 35px;
-    border-radius: 100px;
+/*05 Stilizando imagems altomatica */
+
+.content {
+    height: 480px;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-#topo:hover{
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    filter: drop-shadow(25px 20px 15px rgba(0,0,0,.5));
+.content .slide img {
+    height: 100%;
+    width: 100%;
 }
 
-/*customizando sobre o blog*/
+.navigation {
+    left: auto;
+    right: auto;
+    margin-top: 525px;
+    display: flex;
+}
+
+.bar {
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    margin: auto;
+    border-radius: 15px;
+    cursor: pointer;
+    transform: .3s ease;
+
+}
+
+.bar:hover {
+    background-color: white;
+}
+
+input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 1000%;
+    height: 100%;
+}
+
+.slide {
+    width: 10%;
+    transition: .2s;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+} 
+
+#slide2:checked ~ .s1 {
+    margin-left: -10%;
+} 
+
+#slide3:checked ~ .s1 {
+    margin-left: -20%;
+} 
+
+#slide4:checked ~ .s1 {
+    margin-left: -30%;
+} 
+
+#slide5:checked ~ .s1 {
+    margin-left: -40%;
+} 
+
+#slide6:checked ~ .s1 {
+    margin-left: -50%;
+} 
+
+#slide7:checked ~ .s1 {
+    margin-left: -60%;
+}
+
+#slide8:checked ~ .s1 {
+    margin-left: -70%;
+} 
+
+#slide9:checked ~ .s1 {
+    margin-left: -80%;
+} 
+
+#slide10:checked ~ .s1 {
+    margin-left: -90%;
+} 
+
+/*06 customizando sobre o blog ,sobre mim */
 
 h2 {
+    top: 10px;
     color: #ffffff;
-    font-size: 50px;
-    margin-top: 25px;
+    font-size: 30px;
+    margin-top: 1px;
     font-weight: bold;
-    padding: 40px;
+    padding: 10px;
     font-family: "Amatic SC", sans-serif;
     font-style: normal;
     text-align: center;
     transition: all 0.5s;
     cursor: pointer;
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 h3 {
@@ -260,7 +340,7 @@ h3 {
 
 h4 {
     width: 1000px;
-    height: 460px;
+    height: 400px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -268,46 +348,53 @@ h4 {
     font-family: "Gidugu", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 30px;
+    font-size: 25px;
     background: rgba(0, 0, 0, 0.5);
+}
+
+div samp {
+    color: rgb(249, 0, 195);
+    font-size: 30px;
+    margin-top: 25px;
+    font-weight: bold;
+    font-family: "Amatic SC", sans-serif;
+    font-style: normal;
 }
 
 h4 li a{
     color: #ff00ea;
 }
 
+.texto {
+    align-items: center;
+    margin-top: 100px;
+}
+
 section {
     align-items: center;
 }
 
-.Imagem {
-    transition: all 0.5s;
-    cursor: pointer;
-    height: 400px;
-    font-size: 60px;
-    padding: 25px;
-    border-radius: 30%;
-    position: absolute; 
-    left: 200px; /* posiciona a 90px para a esquerda */ 
-    top: 1600px; /* posiciona a 70px para baixo */
+/*07 estilizando botao de subida*/
+
+#topo{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(118,174,241,1);
+    padding: 15px;
+    position: fixed;
+    right: 35px;
+    bottom: 30px;
+    border-radius: 100px;
 }
 
-.Imagem:hover{
+#topo:hover{
     -webkit-transform: scale(1.5);
-    transform: scale(2.9);
+    transform: scale(1.5);
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     filter: drop-shadow(25px 20px 15px rgba(0,0,0,.5));
 }
 
-.img {
-    align-items: center;
-    display: inline-block;
-    justify-content: center;
-    height: 1050px;
-    display: flex;
-}
-
-/*estilizando o rodape*/
+/*08 estilizando o rodape*/
 
 footer {
 	background-color: rgb(0, 0,0,.8);
@@ -336,8 +423,12 @@ footer a {
     font-size: 20px;
 }
 
+/*09 fazendo adapitacao para ocelular */
+
 @media(max-width: 800px){
-    
+
+/*01 Customizando body*/
+
 html, body{
     width: 100%;
     max-width: 100%;
@@ -347,7 +438,36 @@ html, body{
 
 }
 
-/*logo*/
+
+/*02 customizando titulo da pagina*/
+
+h1 {
+    backface-visibility: visible 0,5;
+    color: #fff;
+    font-size: 45px;
+    margin-top: 5px;
+    font-weight: bold;
+    padding: 5px;
+    font-family: "Amatic SC", sans-serif;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#header {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+div h1 samp {
+    color: rgb(249, 0, 195);
+    font-size: 45px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-family: "Amatic SC", sans-serif;
+    font-style: normal;
+}
+
+/*03 estilizando a logo*/
 
 .logo { 
     cursor: pointer;
@@ -359,28 +479,7 @@ html, body{
     top: 45px; /* posiciona a 70px para baixo */
 }
 
-
-#topo{
-    text-decoration: none;
-    color: #fff;
-    background-color: rgb(249, 0, 195);
-    padding: 10px;
-    position: fixed;
-    right: 40px;
-    bottom: 120px;
-    border-radius: 100px;
-}
-
-#topo:hover{
-    -webkit-transform: none;
-    transform: none;
-    -webkit-filter: none;
-    filter: none;
-}
-
-/*teste*/
-
-
+/*04 Cotomizando butao*/
 
 a {
     text-decoration: none;
@@ -457,40 +556,108 @@ a {
     top: -7px;
 }
 
+/*05 Stilizando imagems altomatica */
 
-/*customizando titulo da pagina*/
+.content {
+    height: 590px;
+    width: 380px;
+    border-radius: 25px;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
 
-h1 {
-    backface-visibility: visible 0,5;
-    color: #fff;
-    font-size: 45px;
-    margin-top: 5px;
-    font-weight: bold;
-    padding: 5px;
-    font-family: "Amatic SC", sans-serif;
-    text-align: center;
-    transition: all 0.5s;
+.content .slide img {
+    height: 100%;
+    width: 100%;
+}
+
+.navigation {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    bottom: 50px;
+    align-items: center;
+    right: auto;
+    bottom: auto;
+    display: flex;
+}
+
+.bar {
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+    margin: 5px;
+    border-radius: 10px;
     cursor: pointer;
+    transform: .5s ease;
+
 }
 
-div h1 samp {
-    color: rgb(249, 0, 195);
-    font-size: 45px;
-    margin-top: 5px;
-    font-weight: bold;
-    font-family: "Amatic SC", sans-serif;
-    font-style: normal;
+.bar:hover {
+    background-color: white;
 }
 
-div samp {
-    color: rgb(249, 0, 195);
-    font-size: 35px;
-    margin-top: 5px;
-    font-weight: bold;
-    font-family: "Amatic SC", sans-serif;
-    font-style: normal;
+input {
+    display: none;
 }
 
+.slides {
+    display: flex;
+    width: 1000%;
+    height: 100%;
+}
+
+.slide {
+    width: 10%;
+    transition: .2s;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+} 
+
+#slide2:checked ~ .s1 {
+    margin-left: -10%;
+} 
+
+#slide3:checked ~ .s1 {
+    margin-left: -20%;
+} 
+
+#slide4:checked ~ .s1 {
+    margin-left: -30%;
+} 
+
+#slide5:checked ~ .s1 {
+    margin-left: -40%;
+} 
+
+#slide6:checked ~ .s1 {
+    margin-left: -50%;
+} 
+
+#slide7:checked ~ .s1 {
+    margin-left: -60%;
+}
+
+#slide8:checked ~ .s1 {
+    margin-left: -70%;
+} 
+
+#slide9:checked ~ .s1 {
+    margin-left: -80%;
+} 
+
+#slide10:checked ~ .s1 {
+    margin-left: -90%;
+} 
 .imagem-fundo {
     position: relative;
     height: 100vh;
@@ -500,9 +667,7 @@ div samp {
     background-attachment: fixed, scroll;
 }
 
-/*Cotomizando butao*/
-
-/*customizando sobre o blog*/
+/*customizando sobre o blog,sobre mim */
 
 nav{
     background: none;
@@ -537,13 +702,6 @@ h3 {
     font-size: 20px;
 }
 
-header{
-    width: 100%;
-    max-width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
 
 h4 {
     width: auto;
@@ -559,32 +717,43 @@ h4 {
     background: rgba(0, 0, 0, 0.5);
 }
 
-.Imagem {
-    transition: all 0.5s;
-    cursor: pointer;
-    height: 100px;
-    font-size: 60px;
-    padding: 5px;
-    border-radius: 30%;
-    position: absolute; 
-    left: 270px; /* posiciona a 90px para a esquerda */ 
-    top: 350px; /* posiciona a 70px para baixo */
+div samp {
+    color: rgb(249, 0, 195);
+    font-size: 35px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-family: "Amatic SC", sans-serif;
+    font-style: normal;
 }
 
-.Imagem:hover{
-    -webkit-transform: scale(1.5);
-    transform: scale(2.9);
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    filter: drop-shadow(25px 20px 15px rgba(0,0,0,.5));
+.texto {
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    margin-top: 750px;
 }
 
-.img {
-    align-items: center;
-    display: inline-block;
-    justify-content: center;
-    height: 1050px;
-    display: flex;
+/*estilizando botao de subida*/
+
+#topo{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(118,174,241,1);
+    padding: 10px;
+    position: fixed;
+    right: 40px;
+    bottom: 120px;
+    border-radius: 100px;
 }
+
+#topo:hover{
+    -webkit-transform: none;
+    transform: none;
+    -webkit-filter: none;
+    filter: none;
+}
+
 
 /*estilizando o rodape*/
 
@@ -601,19 +770,6 @@ footer p {
     font-family: "Amatic SC", sans-serif;
     font-weight: 300px;
     font-size: 25px;
-}
-
-footer ul img {
-    width: 20px;
-    padding: 5px;
-}
-
-footer a {
-    color: rgb(249, 0, 195);
-    font-family: "Amatic SC", sans-serif;
-    font-weight: 300px;
-    font-size: 25px;
-}
 }
 
 footer ul img {
