@@ -1,4 +1,18 @@
 const btnMobile = document.getElementById('btn-mobile');
+let contador = 1;
+
+btnMobile.addEventListener('click', toggleMenu);
+btnMobile.addEventListener('touchstart', toggleMenu);
+
+setInterval( function(){
+    document.getElementById('slide' + contador).checked = true;
+    contador++;
+
+    if(counter > 5 ) {
+        contador = 1;
+
+    }
+}, 2000 );
 
 function toggleMenu(event) {
     if (event.type === 'touchstart') event.preventDefault();
@@ -13,5 +27,6 @@ function toggleMenu(event) {
     }
 }
 
-btnMobile.addEventListener('click', toggleMenu);
-btnMobile.addEventListener('touchstart', toggleMenu);
+
+
+
