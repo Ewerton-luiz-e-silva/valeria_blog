@@ -42,6 +42,8 @@ h1 {
     padding: 0;
 }
 
+
+
 #header {
     background: rgba(0, 0, 0, 0.8);
 }
@@ -95,7 +97,7 @@ a {
 
 nav {
     width: 90%;
-    margin: 20px auto;
+    margin: 50px auto;
     text-align: center;
 }
 
@@ -375,24 +377,28 @@ footer a {
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-.content .slidee img {
+.content .slide img {
     height: 100%;
     width: 100%;
 }
 
 .navigation {
     position: absolute;
-    bottom: 160px;
-    left: 850px;
+    top: 590px;
+    left: -5px;
+    margin-left: 13px;
+    margin-right: 13px;
+    align-items: center;
+    bottom: auto;
     display: flex;
 }
 
 .bar {
-    width: 15px;
-    height: 15px;
+    width: 25px;
+    height: 25px;
     border: 2px solid white;
-    margin: 6px;
-    border-radius: 15px;
+    margin: 5px;
+    border-radius: 10px;
     cursor: pointer;
     transform: .5s ease;
 
@@ -461,10 +467,10 @@ input {
         padding: 10px;
         border-radius: 60%;
         position: absolute; 
-        left: 65px; /* posiciona a 90px para a esquerda */ 
-        top: 45px; /* posiciona a 70px para baixo */
+        right: auto;
+        left: auto; /* posiciona a 90px para a esquerda */ 
+        top: 50px; /* posiciona a 70px para baixo */
     }
-    
     
     #topo{
         text-decoration: none;
@@ -562,8 +568,11 @@ input {
         transform: rotate(-135deg);
         top: -7px;
     }
-    
-    
+
+    .color-menu {
+        color: #fff;
+    }
+
     /*customizando titulo da pagina*/
     
     h1 {
@@ -815,3 +824,4 @@ input {
         font-size: 25px;
     }
     }
+
