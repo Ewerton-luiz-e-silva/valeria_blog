@@ -1,0 +1,276 @@
+html, body {
+    width: 100%;
+    max-width: 100vw;
+    height: 160%;
+    margin: 0;
+    padding: 0;
+
+}
+
+/*customizando titulo da pagina*/
+
+h1 {
+    backface-visibility: visible 0,5;
+    color: #fff;
+    font-size: 72px;
+    margin-top: 30px;
+    font-weight: bold;
+    padding: 20px;
+    font-family: "Amatic SC", sans-serif;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+h1:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+div samp {
+    color: rgb(249, 0, 195);
+    font-size: 100px;
+    margin-top: 25px;
+    font-weight: bold;
+    font-family: "Amatic SC", sans-serif;
+    font-style: normal;
+}
+
+/*Cotomizando butao*/
+
+li {
+    margin: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.custom {
+    width: 400px;
+    height: 50px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 90px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+}
+
+.custom {
+    background: rgb(247,150,192);
+    background: radial-gradient(circle, rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.custom span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.custom:before,
+.custom:after {
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 1px;
+    box-shadow:
+    -1px -1px 20px 0px rgba(255,255,255,1),
+    -4px -4px 5px 0px rgba(255,255,255,1),
+    7px 7px 20px 0px rgba(0,0,0,.4),
+    4px 4px 5px 0px rgba(0,0,0,.3);
+}
+
+.custom:before {
+    right: 0;
+    top: 0;
+    transition: all 500ms ease;
+}
+
+.custom::after {
+    left: 0;
+    bottom: 0;
+    transition: all 500ms ease;
+}
+
+.custom:hover{
+    background: transparent;
+    color: #76aef1;
+    box-shadow: none;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.custom:hover:before {
+    transition: all 500ms ease;
+    height: 100%;
+}
+
+.custom:hover:after {
+    transition: all 500ms ease;
+    height: 100%;
+}
+
+.custom span:before,
+.custom span:after {
+    position: absolute;
+    content: "";
+    box-shadow:
+    -1px -1px 20px 0px rgba(255,255,255,1),
+    -4px -4px 5px 0px rgba(255,255,255,1),
+    7px 7px 20px 0px rgba(0,0,0,.4),
+    4px 4px 5px 0px rgba(0,0,0,.3);
+}
+
+.custom span:before {
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: .5px;
+    transition: all 500ms ease;
+}
+
+.custom span:after {
+    right: 0;
+    bottom: 0;
+    width: 0%;
+    height: .5px;
+    transition: all 500ms ease;
+}
+
+.custom span:hover:before {
+    width: 100%;
+}
+
+.custom span:hover:after {
+    width: 100%;
+}
+
+
+/*Customizando body*/
+
+body {
+    margin: 0;
+}
+
+.imagem-fundo {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: url('Imagem/Fundo\ 1.jpg');
+    background-size: cover;
+    background-attachment: fixed, scroll;
+}
+
+/*customizando titulo da pagina*/
+
+h1 {
+    backface-visibility: visible 0,5;
+    color: #fff;
+    font-size: 100px;
+    margin-top: 30px;
+    font-weight: bold;
+    padding: 20px;
+    font-family: "Amatic SC", sans-serif;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+h1:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+div samp {
+    color: rgb(249, 0, 195);
+    font-size: 100px;
+    margin-top: 25px;
+    font-weight: bold;
+    font-family: "Amatic SC", sans-serif;
+    font-style: normal;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 90px;
+    margin-top: 25px;
+    font-weight: bold;
+    padding: 40px;
+    font-family: "Amatic SC", sans-serif;
+    font-style: normal;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+h3 {
+    text-align: right;
+    text-align: center;
+    color: #fff;
+    font-family: "Amatic SC", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+
+
+/* estilizando magina de video */ 
+
+
+
+
+
+
+/*estilizando o rodape*/
+
+footer {
+	background-color: rgb(0, 0,0,.8);
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 300px;
+    font-size: 50px;
+}
+
+footer p {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+}
+
+footer ul img {
+    width: 55px;
+    padding: 5px;
+}
+
+footer a {
+    color: rgb(249, 0, 195);
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 500;
+    font-size: 80px;
+}
