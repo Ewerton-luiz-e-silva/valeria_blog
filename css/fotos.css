@@ -304,19 +304,19 @@ nav {
 }
 
 .galery {
-    height: 375px;
+    height: 300px;
     padding: 5px;
     border-radius: 30px;
 }
 
 .galery-p {
-    height: 500px;
+    height: 400px;
     padding: 5px;
     border-radius: 30px;
 }
 
 .galery-m {
-    height: 400px;
+    height: 300px;
     padding: 5px;
     border-radius: 30px;
 }
