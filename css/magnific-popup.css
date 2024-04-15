@@ -159,7 +159,7 @@ button::-moz-focus-inner {
   top: 0;
   right: 0;
   color: #CCC;
-  font-size: 12px;
+  font-size: 20px;
   line-height: 18px;
   white-space: nowrap; }
 
@@ -202,19 +202,19 @@ button::-moz-focus-inner {
 .mfp-arrow-left {
   left: 0; }
   .mfp-arrow-left:after {
-    border-right: 17px solid #FFF;
+    border-right: 20px solid #FFF;
     margin-left: 31px; }
   .mfp-arrow-left:before {
     margin-left: 25px;
-    border-right: 27px solid rgbrgb(0, 0, 0);; }
+    border-right: 35px solid rgb(0, 0, 0); }
 
 .mfp-arrow-right {
   right: 0; }
   .mfp-arrow-right:after {
-    border-left: 17px solid #FFF;
+    border-left: 20px solid #FFF;
     margin-left: 39px; }
   .mfp-arrow-right:before {
-    border-left: 27px solid rgbrgb(0, 0, 0);; }
+    border-left: 35px solid rgb(0, 0, 0); }
 
 .mfp-iframe-holder {
   padding-top: 40px;
@@ -317,13 +317,13 @@ img.mfp-img {
     bottom: 0;
     margin: 0;
     top: auto;
-    padding: 3px 5px;
+    padding: 3px 3px;
     position: fixed;
     box-sizing: border-box; }
     .mfp-img-mobile .mfp-bottom-bar:empty {
       padding: 0; }
   .mfp-img-mobile .mfp-counter {
-    right: 5px;
+    right: 3px;
     top: 3px; }
   .mfp-img-mobile .mfp-close {
     top: 0;
@@ -349,3 +349,4 @@ img.mfp-img {
   .mfp-container {
     padding-left: 10px;
     padding-right: 10px; } }
+
