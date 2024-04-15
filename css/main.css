@@ -435,6 +435,14 @@ html, body{
 
 }
 
+.imagem-fundo {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background:#ffffff9a;
+    background-size: cover;
+    background-attachment: fixed, scroll;
+}
 
 /*02 customizando titulo da pagina*/
 
@@ -571,7 +579,7 @@ a {
     margin-right: auto;
     margin-bottom: auto;
     overflow: hidden;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -735,7 +743,7 @@ div samp {
     right: auto;
     top: auto;
     bottom: auto;
-    margin-top: 590px;
+    margin-top: 650px;
 }
 
 /*estilizando botao de subida*/
