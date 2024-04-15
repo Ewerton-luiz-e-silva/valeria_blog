@@ -408,7 +408,7 @@ footer a {
         position: relative;
         height: 100vh;
         width: 100vw;
-        background:#ffffff9a;
+        background-image: linear-gradient(to right, rgb(249, 0, 195), #083263);
         background-size: cover;
         background-attachment: fixed, scroll;
     }
