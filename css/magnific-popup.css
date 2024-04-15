@@ -214,6 +214,7 @@ button::-moz-focus-inner {
     border-left: 20px solid #FFF;
     margin-left: 39px; }
   .mfp-arrow-right:before {
+    margin-left: 31px;
     border-left: 35px solid rgb(0, 0, 0); }
 
 .mfp-iframe-holder {
