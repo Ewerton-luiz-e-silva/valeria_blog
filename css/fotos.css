@@ -403,7 +403,7 @@ footer a {
         padding: 0;
     
     }
-	
+    
     .imagem-fundo {
         position: relative;
         height: 100vh;
@@ -412,7 +412,7 @@ footer a {
         background-size: cover;
         background-attachment: fixed, scroll;
     }
-	
+
     /*logo*/
     
     .logo { 
@@ -484,6 +484,7 @@ footer a {
         visibility: visible;
         overflow-y: auto;
     }
+    
     #menu a {
         padding: 1rem 0;
         margin: 0 1rem;
@@ -670,11 +671,6 @@ footer a {
     margin-top: 10px;
 }
 
-.gallery-010 {
-    display: block;
-    justify-content: center;
-    margin-top: 10px;
-}
 
 .galery{
     height: 200px;
