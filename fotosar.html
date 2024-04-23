@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog da Valéria</title>
+    <link rel="stylesheet" href="./css/aos.css">
     <link rel="stylesheet" href="./css/fotos.css">
     <link rel="stylesheet" href="./css/magnific-popup.css">
     <link rel="icon" href="./Logos/val.jpg">
@@ -40,20 +41,21 @@
                         <li>
                             <a class="custom" href="./video.html"><span>Videos</span></a>
                         </li>
+                        <li>
+                            <a class="custom" href="./contato.html"><span>Contato</span></a>
+                        </li>
                     </ul>
                 </nav>
         </header>
     </section>
-
-
-
-    <h2>Gale<samp>ria</samp> de artis<samp>tica</samp> 01 </h2>
-
+    
     <div class="galeria">
+        <h2>Gale<samp>ria</samp> de artis<samp>tica</samp> 01 </h2>
 
     <section>
 
-        <div class="gallery-001">
+        <div class="gallery-001" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
                 
         <a class="image-link" href="./Artistica/1.jpg"><img class="galery" src="./Artistica/1.jpg" alt="foto1"></a>
         <a class="image-link" href="./Artistica/2.jpg"><img class="galery" src="./Artistica/2.jpg" alt="foto2"></a>
@@ -62,7 +64,8 @@
 
     </div>
 
-    <div class="gallery-002">
+    <div class="gallery-002" data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom">
 
         <a class="image-link" href="./Artistica/5.jpg"><img class="galery" src="./Artistica/5.jpg" alt="foto5"></a>
         <a class="image-link" href="./Artistica/6.jpg"><img class="galery" src="./Artistica/6.jpg" alt="foto6"></a>
@@ -78,16 +81,20 @@
 <script src="./js/jquery.main.js"></script>
 <script src="./js/magnific-popup.js"></script>
 <script src="./js/main.js"></script>
+<script src="./js/aos.js"></script>
+<script>
+    AOS.init();
+</script>
     <footer>
         <p>&copy; 2024 - Todos os direitos reservados</p>
         <p>Entre em contato pelo E-mail: Abaixo</p>
-	<nav>
-		<ul>
-            <li><a href="https://www.instagram.com/valeriacolibmakeup?igsh=MWx5aTZsanljNWY4NA%3D%3D&utm_source=qr" target="_blank">Instagram</a><img src="./Logos/instagram.png"></li>
-			<li><a href="https://www.instagram.com/valeriacolib?igsh=MXF4cG42bW1kcHNwcA%3D%3D&utm_source=qr" target="_blank">Instagram de Dicas</a><img src="./Logos/instagram.png"></li>
-            <li><a href="https://youtube.com/@valeriacolib"target="_blank">Youtube</a><img src="./Logos/youtube.png"></li>
-            <li><a href="mailto:valeriacolibmakeup@hotmail.com?subject=E-mail">E-mail</a><img src="./Logos/hotmail.png"></li>
-		</ul>
-	</nav>
+        <nav>
+            <ul>
+                <li><a href="https://www.instagram.com/valeriacolibmakeup?igsh=MWx5aTZsanljNWY4NA%3D%3D&utm_source=qr" target="_blank">Instagram</a><img src="./Logos/instagram.png"></li>
+                <li><a href="https://www.instagram.com/valeriacolib?igsh=MXF4cG42bW1kcHNwcA%3D%3D&utm_source=qr" target="_blank">Instagram de Dicas</a><img src="./Logos/instagram.png"></li>
+                <li><a href="https://youtube.com/@valeriacolib"target="_blank">Youtube</a><img src="./Logos/youtube.png"></li>
+                <li><a href="mailto:valeriacolibmakeup@hotmail.com?subject=E-mail">E-mail</a><img src="./Logos/hotmail.png"></li>
+            </ul>
+        </nav>
     </footer>
 </html>
